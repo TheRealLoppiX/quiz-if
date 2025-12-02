@@ -8,9 +8,7 @@ import { RootStackParamList } from '../../App';
 type Props = NativeStackScreenProps<RootStackParamList, 'Quiz'>;
 
 const quizData: Record<string, { title: string; src: string }> = {
-  hardware: { title: 'Hardware', src: 'https://docs.google.com/forms/d/e/SEU_ID_HARDWARE/viewform' },
-  software: { title: 'Software', src: 'https://docs.google.com/forms/d/e/SEU_ID_SOFTWARE/viewform' },
-  redes: { title: 'Redes', src: 'https://docs.google.com/forms/d/e/SEU_ID_REDES/viewform' },
+  montagem_e_manutenção_de_comutadores: { title: 'Hardware', src: 'https://docs.google.com/forms/d/e/SEU_ID_HARDWARE/viewform' }
 };
 
 export default function QuizScreen({ route, navigation }: Props) {

@@ -7,9 +7,7 @@ import { RootStackParamList } from '../../App';
 type Props = NativeStackScreenProps<RootStackParamList, 'ModuleSelection'>;
 
 const modulos = [
-  { id: 'hardware', title: 'Hardware Básico', description: 'Componentes e placas.' },
-  { id: 'software', title: 'Software', description: 'Sistemas e Apps.' },
-  { id: 'redes', title: 'Redes', description: 'Conceitos de redes.' },
+  { id: 'montagem_e_manutenção_de_comutadores', title: 'Montagem e Manutenção de Computadores', description: 'Todo o processo de montagem e manutenção de computadores, desde mais antigo até os mais atuais.' },
 ];
 
 export default function ModuleSelectionScreen({ navigation }: Props) {
