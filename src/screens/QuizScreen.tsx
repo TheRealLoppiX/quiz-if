@@ -8,7 +8,7 @@ import { RootStackParamList } from '../../App';
 type Props = NativeStackScreenProps<RootStackParamList, 'Quiz'>;
 
 const quizData: Record<string, { title: string; src: string }> = {
-  montagem_e_manutenção_de_comutadores: { title: 'Hardware', src: 'https://docs.google.com/forms/d/e/SEU_ID_HARDWARE/viewform' }
+  montagem_e_manutenção_de_comutadores: { title: 'Hardware', src: 'https://forms.gle/4czZejqZKuR7XF4P9' }
 };
 
 export default function QuizScreen({ route, navigation }: Props) {
