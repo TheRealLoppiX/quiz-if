@@ -96,7 +96,7 @@ export default function AuthScreen() {
                 disabled={loading}
             >
                 {loading ? (
-                    <ActivityIndicator color="#00e5ff" />
+                    <ActivityIndicator color="#15ff00ff" />
                 ) : (
                     <Text style={styles.actionButtonText}>
                         {isRegistering ? 'CADASTRAR' : 'ENTRAR'}
@@ -127,10 +127,10 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 42,
     fontWeight: 'bold',
-    color: '#00e5ff',
+    color: '#15ff00ff',
     textAlign: 'center',
     marginBottom: 10,
-    textShadowColor: 'rgba(0, 229, 255, 0.5)',
+    textShadowColor: 'rgba(0, 255, 30, 0.5)',
     textShadowRadius: 10,
   },
   subtitle: {
@@ -143,9 +143,9 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   input: {
-    backgroundColor: 'rgba(10, 10, 30, 0.6)',
+    backgroundColor: 'rgba(12, 30, 10, 0.6)',
     borderWidth: 1,
-    borderColor: '#00e5ff',
+    borderColor: '#15ff00ff',
     borderRadius: 10,
     padding: 15,
     marginBottom: 15,
@@ -153,21 +153,21 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   actionButton: {
-    backgroundColor: 'rgba(0, 229, 255, 0.15)',
+    backgroundColor: 'rgba(0, 255, 51, 0.15)',
     borderWidth: 2,
-    borderColor: '#00e5ff',
+    borderColor: '#15ff00ff',
     borderRadius: 50,
     padding: 15,
     alignItems: 'center',
     marginTop: 10,
-    shadowColor: "#00e5ff",
+    shadowColor: "#15ff00ff",
     shadowOffset: { width: 0, height: 0 },
     shadowOpacity: 0.5,
     shadowRadius: 10,
     elevation: 5,
   },
   actionButtonText: {
-    color: '#00e5ff',
+    color: '#15ff00ff',
     fontWeight: 'bold',
     fontSize: 18,
     letterSpacing: 1,

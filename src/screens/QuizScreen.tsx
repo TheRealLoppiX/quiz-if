@@ -42,5 +42,5 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   backArrow: { color: '#c0c0c0', fontSize: 18, marginRight: 20 },
-  title: { color: '#00e5ff', fontSize: 20, fontWeight: 'bold' }
+  title: { color: '#15ff00ff', fontSize: 20, fontWeight: 'bold' }
 });

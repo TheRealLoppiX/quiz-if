@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
   headerTitle: {
     fontSize: 32,
     fontWeight: 'bold',
-    color: '#00e5ff',
+    color: '#15ff00ff',
     textAlign: 'center',
     marginBottom: 40,
   },
@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
   cardTitle: {
     fontSize: 22,
     fontWeight: 'bold',
-    color: '#00e5ff',
+    color: '#15ff00ff',
     marginBottom: 10,
   },
   cardDesc: { fontSize: 16, color: '#c0c0c0' },

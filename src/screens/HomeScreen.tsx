@@ -38,11 +38,11 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 38,
     fontWeight: 'bold',
-    color: '#00e5ff', // Ciano Neon
+    color: '#15ff00ff', // Ciano Neon
     textAlign: 'center',
     marginBottom: 20,
     // Sombras de texto não funcionam igual no Android, mas ok
-    textShadowColor: 'rgba(0, 229, 255, 0.5)',
+    textShadowColor: 'rgba(43, 255, 0, 0.5)',
     textShadowOffset: { width: 0, height: 0 },
     textShadowRadius: 10,
   },
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     marginBottom: 50,
   },
   button: {
-    borderColor: '#00e5ff',
+    borderColor: '#15ff00ff',
     borderWidth: 2,
     borderRadius: 50,
     paddingVertical: 15,
@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(0, 229, 255, 0.1)',
   },
   buttonText: {
-    color: '#00e5ff',
+    color: '#15ff00ff',
     fontSize: 20,
     fontWeight: 'bold',
     textTransform: 'uppercase',
